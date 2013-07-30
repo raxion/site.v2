@@ -61,6 +61,11 @@ table {
 		MY CSS 
     --------------------------------------------------------- */ 
 
+	
+a {
+	text-decoration: none;
+	color: black;
+}
 a:visited {
 	text-decoration: none;
 	color: black;
@@ -76,11 +81,14 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 1.0em;
+	font-style: strong;
+	padding-top: 5px;
 
 }
 body {
-	background-color: #FFB473;
+font-family: Helvetica, Arial, Tahoma, sans-serif;
+	background-color: #FFF;
 }
 
 p {
@@ -97,17 +105,15 @@ form label {
 }
 
 button {
-	border: 1px solid #346578;
+	border: 1px solid #FFB473;
 }
 input, textarea {
-	border: 1px solid #346578;
+	border: 1px solid #FFB473;
 	padding: 5px;
-	
-	
-     -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -khtml-border-radius: 8px;
-    border-radius: 8px;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
 }
 
 textarea {
@@ -224,8 +230,17 @@ textarea {
 }
 
 .rounded-corners {
-     -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -khtml-border-radius: 20px;
-    border-radius: 20px;
+	border: 1px solid #FFB473;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
 }
+
+
+
+
+
+
+/* FOOOOOOOOOOOOOOOORN */
+

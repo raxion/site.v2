@@ -6,20 +6,20 @@
                 Nedan följer några exempel på eteriska oljor och deras användingsområden.
                 </p>
                	<p>
-                Apelsin - upplyftande på vårt sinne.<br />
-				Bergamott - bra vid fet och oren hy.<br />
-                Geranium - upplyftande på humöret.<br />
-                Grapefrukt - bra mot celluliter.<br />
-                Eukalyptus - bra i förkylningstider.<br />
-                Lavendel - avslappnande.<br />
-                Kamomill - bra vid torr och känslig hy.<br />
-                Kanelblad - verkar stärkande och värmande.<br />
-                Lagerblad - aktiverande och stärkande.<br />
-                Neroli - verkar föryngrande.<br />
-                Ros - fin kvinnoolja.<br />
-                Rosenträ - speciellt för torr och känslig hy.<br />
-                Svartpeppar - används vid muskelmassage.<br />
-                Ylang-Ylang - lustförhöjande både i kärlekslivet och livet i allmänhet.<br />
+                <h2>Apelsin</h2> - upplyftande på vårt sinne.<br />
+				<h2>Bergamott</h2> - bra vid fet och oren hy.<br />
+                <h2>Geranium</h2> - upplyftande på humöret.<br />
+                <h2>Grapefrukt</h2> - bra mot celluliter.<br />
+                <h2>Eukalyptus</h2> - bra i förkylningstider.<br />
+                <h2>Lavendel</h2> - avslappnande.<br />
+                <h2>Kamomill</h2> - bra vid torr och känslig hy.<br />
+                <h2>Kanelblad</h2> - verkar stärkande och värmande.<br />
+                <h2>Lagerblad</h2> - aktiverande och stärkande.<br />
+                <h2>Neroli</h2> - verkar föryngrande.<br />
+                <h2>Ros</h2> - fin kvinnoolja.<br />
+                <h2>Rosenträ</h2> - speciellt för torr och känslig hy.<br />
+                <h2>Svartpeppar</h2> - används vid muskelmassage.<br />
+                <h2>Ylang-Ylang</h2> - lustförhöjande både i kärlekslivet och livet i allmänhet.<br />
                 </p>
 		</div>
 	
