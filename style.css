@@ -1,3 +1,9 @@
+/*
+http://www.colorcombos.com/combomaker.html?design=&output_width=0&size_option=&colors=B7C68B,F4F0CB,DED29E,B3A580,685642&background_color=&show_hex_flag=
+http://colorschemedesigner.com/#0v11Tw0w0w0w0
+
+*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -53,6 +59,11 @@ table {
 
 /*MY CSS */
 
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
 h1 {
 	font-size: 2em;
 	margin: 0;
@@ -62,24 +73,56 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5em
+	font-size: 1.5em;
 
 }
 body {
-	background-color: #E6E6E6;
+	background-color: #FFB473;
 }
+
+
+form {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+form label {
+	display: block;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+button {
+	border: 1px solid #346578;
+}
+input, textarea {
+	border: 1px solid #346578;
+	padding: 5px;
+	
+	
+     -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+}
+
+textarea {
+	height: 150px;
+	width: 300px;
+}
+
 #wrapper {
-	background-color: #fff;
+	background-color: #FFF;
 	border-color:grey;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1000px;
+	width: 980px;
 	
 }
 
 #header {
 	padding: 10px;
 	height: 300px;
+	background-color: #CC6600;
 }
 #logo {
 	padding: 15px 0px 20px 20px;
@@ -130,8 +173,8 @@ body {
 }
 #menu li a {
 
-	border-left: 5px solid #CCC;
-	background: #E6E6E6;
+	border-left: 5px solid #BF7230;
+	background: #FF9840;
 	color: #000;
 	display: block;
 	text-indent: 20px;
@@ -141,8 +184,8 @@ body {
 	text-decoration: none;
 }
 #menu ul li a:hover {
-	background: #BDBDBD;
-	border-color: #3288A8;
+	background: #FF7600;
+	border-color: #A64D00;
 }
 
 #thetext {
@@ -161,4 +204,18 @@ body {
 #footer hr {
 	border-top: 1px dotted #BDBDBD;
 	width: 90%;
+}
+
+
+
+
+
+
+
+
+.rounded-corners {
+     -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
 }
