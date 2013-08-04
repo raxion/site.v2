@@ -1,4 +1,4 @@
-<?php include('header.html'); ?>
+w<?php include('header.html'); ?>
 	
 		<div id="thetext">
 			<h1>Välkommen till recolo</h1>

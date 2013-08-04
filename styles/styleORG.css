@@ -21,9 +21,6 @@ a:visited {
 h1 {
 	font-size: 2em;
 	font-family: Helvetica;
-	margin: 0;
-	padding: 0;
-	border: 0;
 	vertical-align: baseline;
 }
 
@@ -34,7 +31,7 @@ h2 {
 
 }
 body {
-font-family: Helvetica, Arial, Tahoma, sans-serif;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
 	background-color: #FFF;
 }
 
