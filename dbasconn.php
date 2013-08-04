@@ -1,5 +1,4 @@
 ﻿<?php
-<--117987-recolosdb -->
 $username = "root";
 $password = "";
 $hostname = "localhost"; 

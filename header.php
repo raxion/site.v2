@@ -1,4 +1,7 @@
 ﻿<!DOCTYPE html>
+<?php
+session_start(); // start up your PHP session! 
+?>
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
