@@ -1,14 +1,13 @@
 ﻿@import "elements.less";
-@bgcolor: #ecf0f1; 	//BGColor ecf0f1
-@hdcolor: #2A2925; 	//
-@ctcolor: #ecf0f1;  	//
+@bgcolor: #ecf0f1;  //BGColor
+@hdcolor: #27ae60;  //
+@ctcolor: #000;  	//
 //Menu
-@color1: #9BAB40;  	//Menu-BGC //
-@color2: #6F7722;  	//Menu-Border
-@color3: #6F7722;  	//Menu-BGC-Hover
-@color4: #2A2925;  	//Menu-Border-Hover
+@color1: #2ecc71;  	//
+@color2: #95a5a6;  	//
+@color3: #27ae60;  	//
+@color4: #2c3e50;  	//
 
-//#4D8B0E
 
 
 body {
@@ -21,7 +20,7 @@ a {
 	text-decoration: none;
 	
 	&:hover {
-		color: black;
+		color: grey;
 		text-decoration: none;
 	}
 	
@@ -30,6 +29,7 @@ a {
 		text-decoration: none;
 	}
 }
+
 
 h1 {
 	font-size: 2.2em;
@@ -79,10 +79,6 @@ span {
 	background-color: @hdcolor;
 	width: 960px;
 	height: 300px;
-	a {
-		color: @color2;
-	}
-	color: @bgcolor;
 }
 
 #logo {
@@ -95,10 +91,8 @@ span {
 	width: 300px;
 	padding: 22px 22px 0px 0px;
 }
-#content {
-	background-color: @ctcolor;	
+#header {
 	width: 960px;
-	height: 500px;
 }
 
 #menu {
@@ -108,6 +102,7 @@ span {
 	width: 210px;
 	height: 270px;
 	font-size: 1em;
+	background-color: @bgcolor;
 	ul li {
 		padding-bottom: 5px;
 		
@@ -137,8 +132,9 @@ span {
 	min-height: 300px;
     height: auto !important;
     height: 300px;
+	
 	h1 {
-		border-bottom: 1px solid @hdcolor; padding: 10px 0;
+		border-bottom: 1px solid #1a1a1a; padding: 10px 0;
 	}
 	
 	h2 {
@@ -177,19 +173,6 @@ span {
 	padding-left: 5px;
 	color: red;
 }
-.prodList {
-	width: 400px;
-	float: left;
-}
-.sideImg {
-	display: block;
-	float: right;
-	img {
-		width: 300px;
-		height: auto;
-	}	
-}
-
 #footer {
 	text-align: center;
 	width: 960px;

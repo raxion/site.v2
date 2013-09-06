@@ -1,4 +1,4 @@
-<?php include('header.html'); ?>
+<?php include('header.php'); ?>
 	
 		<div id="thetext">
 				<h1>Salvor & Krämer</h1>

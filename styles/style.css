@@ -13,7 +13,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: grey;
+  color: black;
   text-decoration: none;
 }
 a:visited {
@@ -54,9 +54,13 @@ p {
   margin: auto;
 }
 #header {
-  background-color: #27ae60;
+  background-color: #2a2925;
   width: 960px;
   height: 300px;
+  color: #ecf0f1;
+}
+#header a {
+  color: #6f7722;
 }
 #logo {
   float: left;
@@ -68,8 +72,10 @@ p {
   width: 300px;
   padding: 22px 22px 0px 0px;
 }
-#header {
+#content {
+  background-color: #ecf0f1;
   width: 960px;
+  height: 500px;
 }
 #menu {
   float: left;
@@ -78,15 +84,14 @@ p {
   width: 210px;
   height: 270px;
   font-size: 1em;
-  background-color: #ecf0f1;
 }
 #menu ul li {
   padding-bottom: 5px;
 }
 #menu ul li a {
   box-shadow: 1px 1px 1px #000;
-  background: #2ecc71;
-  border-left: 3px solid #95a5a6;
+  background: #9bab40;
+  border-left: 3px solid #6f7722;
   display: block;
   width: 95%;
   height: 40px;
@@ -94,8 +99,8 @@ p {
   text-indent: 20px;
 }
 #menu ul li a:hover {
-  background: #27ae60;
-  border-left: 7px solid #2c3e50;
+  background: #6f7722;
+  border-left: 7px solid #2a2925;
 }
 #thetext {
   float: left;
@@ -107,7 +112,7 @@ p {
   height: 300px;
 }
 #thetext h1 {
-  border-bottom: 1px solid #1a1a1a;
+  border-bottom: 1px solid #2a2925;
   padding: 10px 0;
 }
 #thetext h2 {
@@ -117,23 +122,41 @@ p {
   padding-top: 10px;
 }
 .login-form {
-  width: 350px;
+  width: 550px;
 }
 .form-wrapper .inputbox {
-  border: 1px solid #2ecc71;
+  border: 1px solid #9bab40;
   padding: 10px 0 10px 10px;
-  width: 88%;
+  width: 310px;
   outline: none;
   margin-bottom: 10px;
   font-family: inherit;
 }
 .inputarea {
   height: 150px;
+  vertical-align: top;
 }
 .sendbtn {
-  background-color: #2ecc71;
-  border: 1px solid #2c3e50;
+  background-color: #9bab40;
+  border: 1px solid #2a2925;
   padding: 5px 10px 5px 10px;
+}
+.error {
+  display: inline;
+  padding-left: 5px;
+  color: red;
+}
+.prodList {
+  width: 400px;
+  float: left;
+}
+.sideImg {
+  display: block;
+  float: right;
+}
+.sideImg img {
+  width: 300px;
+  height: auto;
 }
 #footer {
   text-align: center;
