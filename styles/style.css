@@ -34,6 +34,9 @@ h3 {
 p {
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
+div.ui-datepicker {
+  font-size: 10px;
+}
 .boxshadow {
   box-shadow: 1px 1px 1px #000;
 }
@@ -121,10 +124,10 @@ p {
 #thetext p {
   padding-top: 10px;
 }
-.login-form {
+.login-form-wrapper {
   width: 550px;
 }
-.form-wrapper .inputbox {
+.login-form .inputbox {
   border: 1px solid #9bab40;
   padding: 10px 0 10px 10px;
   width: 310px;
@@ -157,6 +160,14 @@ p {
 .sideImg img {
   width: 300px;
   height: auto;
+}
+.admin-form .inputbox {
+  border: 1px solid #9bab40;
+  padding: 5px 0 5px 5px;
+  width: 120px;
+  outline: none;
+  margin-bottom: 10px;
+  font-family: inherit;
 }
 #footer {
   text-align: center;

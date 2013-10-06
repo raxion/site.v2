@@ -1,7 +1,7 @@
 ﻿@import "elements.less";
 @bgcolor: #ecf0f1; 	//BGColor ecf0f1
 @hdcolor: #2A2925; 	//
-@ctcolor: #ecf0f1;  	//
+@ctcolor: #ecf0f1;  //
 //Menu
 @color1: #9BAB40;  	//Menu-BGC //
 @color2: #6F7722;  	//Menu-Border
@@ -51,6 +51,10 @@ span {
 
 }
 
+div.ui-datepicker{
+	font-size:10px;
+}
+
 .boxshadow {
 	box-shadow: 1px 1px 1px #000;
 }
@@ -63,6 +67,8 @@ span {
 	display: inline;
 	padding-top: 10px;
 }
+
+
 
 .wrappershad {
 	-webkit-box-shadow:  2px 1px 8px 0px rgba(00, 00, 00, 0.7);
@@ -95,6 +101,9 @@ span {
 	width: 300px;
 	padding: 22px 22px 0px 0px;
 }
+#front {
+}
+
 #content {
 	background-color: @ctcolor;	
 	width: 960px;
@@ -150,11 +159,11 @@ span {
 	}
 }
 
-.login-form {
+.login-form-wrapper {
   width: 550px;
 }
-.form-wrapper .inputbox {
-	border: 1px solid @color1;//#eaedf2;
+.login-form .inputbox {
+	border: 1px solid @color1;
 	padding: 10px 0 10px 10px;
 	width: 310px;
 	outline: none;
@@ -189,7 +198,17 @@ span {
 		height: auto;
 	}	
 }
+.admin-form-wrapper {
 
+}
+.admin-form .inputbox {
+	border: 1px solid @color1;
+	padding: 5px 0 5px 5px;
+	width: 120px;
+	outline: none;
+	margin-bottom: 10px;
+	font-family: inherit;
+}
 #footer {
 	text-align: center;
 	width: 960px;

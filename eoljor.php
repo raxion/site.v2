@@ -24,7 +24,7 @@
 					</p>
 				</div>
 				<div class="sideImg">
-					<img src="bild.PNG">
+					<img src="images/bild.PNG">
 				</div>
 		</div>
 	
